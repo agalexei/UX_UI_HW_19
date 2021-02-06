@@ -83,7 +83,6 @@ body {
 
 aside {
     grid-column: span 4;
-    position:fixed;
 }
 
 ul,
@@ -365,4 +364,7 @@ a:link {
         }
     }
 
+    #my-form {
+        width: 80%;
+    }
 
