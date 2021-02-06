@@ -368,3 +368,24 @@ a:link {
         width: 80%;
     }
 
+    .highlight1 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+        width: 84px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .highlight2 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+        width: 52px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .highlight3 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+        width: 70px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
