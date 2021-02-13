@@ -3,6 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'JetBrains Mono', monospace;
+}
+.jumbotron {
+    background-image: url(../images/background.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 !important;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    margin-left: 0;
+}
+.jumbotron h1 {
+    color: #f3f3f3;
+    margin: 24px 0;
+    line-height: 1.5;
+}
+.jumbotron h6 {
+    color: #f3f3f3;
+    margin: 24px 0;
+    line-height: 1.5;
+}
+
+.intro {
+    padding-top: 0;
+}
+.intro img {
+    width: 224px;
+}
+.intro-page {
+    background-color:#111111;
 }
 
 h1 {
@@ -116,12 +149,10 @@ li {
 .tiles {
     grid-column: 5 / 13;
     margin: 1.5rem;
-    border: 1px solid #efefef;
 }
 .tiles-text {
     grid-column: 5 / 13;
     margin: 1.5rem;
-    border: 1px solid #efefef;
 }
 
 @media only screen and (max-width: 720px) {
@@ -135,6 +166,9 @@ li {
     }
     .tile-casestudy {
         max-width: 50%;
+    }
+    .navbar {
+        background-color: rgba (255, 255, 255, .8)
     }
 }
 
@@ -200,11 +234,11 @@ li {
 }
 .tile-img {
     display: flex;
-    max-height:500px;
-    max-width: 500px;
+    max-height:450px;
     padding: 24px;
     justify-content: center;
     margin: 0 auto !important;
+    object-fit:scale-down;
 }
 .tile-title {
     display: flex;
